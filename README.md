@@ -1,0 +1,39 @@
+# MultiturnFashionRetrieval
+
+SIGIR paper Conversational Fashion Image Retrieval via Multiturn Natural Language Feedback
+paper link: https://arxiv.org/abs/2106.04128
+
+# Repository Notice
+
+This repository is based on the original implementation at:
+https://github.com/yfyuan01/MultiturnFashionRetrieval/tree/master
+
+I have made several modifications to this codebase, including:
+
+- Migrating Python 2 code to be compatible with Python 3.
+- Fixing bugs and correcting issues found in the original implementation.
+
+# About this dataset
+
+This dataset is a multiturn conversational fashion image retrieval dataset with natural language feedback. Each fashion image in our dataset is also associated with some fashion attributes.
+
+The dataset contains three categories, dress, shirt, toptee, namely. All the dataset files are stored in the data/ folder.
+
+The associated fashion attribute files are stored in attr/ folder.
+
+The images can be downloaded from [here](https://drive.google.com/file/d/1pivWpO3_vpMLhySmQc9w53i9Tp0ib1lg/view?usp=sharing).
+
+The two embedding files are [image_embedding](https://drive.google.com/file/d/1iHc-XUFTGcgt3udw8iEM0CialEtj2pt8/view?usp=sharing), [text embedding](https://drive.google.com/file/d/19mhuZMQgVprLkEuTu5cBN5meukuGFnjb/view?usp=sharing)
+
+# Citations
+
+If you find this useful, please cite
+
+```
+@inproceedings{10.1145/3404835.3462881,
+author = {Yuan, Yifei and Lam, Wai},
+title = {Conversational Fashion Image Retrieval via Multiturn Natural Language Feedback},
+year = {2021},
+booktitle = {Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+}
+```
