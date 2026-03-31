@@ -8,6 +8,8 @@ This repository is based on the original implementation:
 
 It has been updated for Python 3 compatibility and includes bug fixes to improve reproducibility.
 
+A demo based on this model to try the multi turn composed image retrieval: [Tmq244/MultiTurnCIR: A FastAPI-based Multiturn Composed Image Retrieve demo](https://github.com/Tmq244/MultiTurnCIR)
+
 ## Repository Structure
 
 ```text
